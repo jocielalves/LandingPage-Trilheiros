@@ -5,99 +5,114 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
+    
     <title> Trilheiros Bahia </title>
 </head>
 
 <body>
     <header> 
-        <h1>Trilheiros Bahia</h1>
-        <ul>
-            <li> <a href="#sobre"> Sobre a gente</a> </li>
-            <li> <a href="#pacotes"></a> Pacotes</li>
-            <li> <a href="#contato"></a> Fale com a Gente </li>
-        </ul>
+        <div class="flex-container menu">
+            <div><h1>Trilheiros Bahia</h1></div>
+            
+            <ul class="list-items">
+                <li> <a href="#sobre">Nossa História</a></li>
+                <li> <a href="#servicos">Nossos Serviços</a></li>
+                <li> <a href="#pacotes">Nossos Pacotes</a></li>
+                <li> <a href="#contato"> Noosa gente</a></li>
+            </ul>
+
+        </div>
     </header>
 
-    <div>
-        <div>
+    <div  class="flex-container apresentacao">
+        <div class="texto-apresentacao">
             <h1> Trilheiros <br> Bahia </h1>
             <p> De trilha Baiana a gente entende!</p>
             <a href="">Conheça Mais! </a>
         </div>
         <div>
-            <div><img src="./images/2-main.jpg" alt="Imagem de apresentação"></div>
+            <div><img src="./images/0-main.jpg" alt="Imagem de apresentação"></div>
         </div>
     </div>
 
-    <div>
+    <div  class="flex-container" id="nossa-historia">
+       
         <div>
-            <div><img src="./images/1-quemsomos.jpg" alt="Sobre nós"></div>
-        </div>
-        <div>
-            <h2>Sobre a gente</h2>
+            <h2>Nossa História</h2>
             <p> Nascemos do desejo de viajar sempre e por não termos tempo muito menos dinheiro vimos no turismo uma forma de juntar o util ao agradável.</p>
             <p> A Trilheiros Bahia é a junção do trabalho e da liberdade de conhecer a Bahia e o mundo.</p>
         </div>
-    </div>
-
-    <div>
         <div>
-            <h2> Pacotes </h2>
-        </div>
-        <div>
-            <div>
-                <div> <img src="./images/icon-2.png" alt="Hospedagem"></div>
-                <p>Lugar pra ficar</p>
-                <a href="#"> Ver e Comprar </a>
-            </div>
-            <div>
-                <div> <img src="./images/icon-1.png" alt="Pacotes"></div>
-                <p>Pacotes dos bons</p>
-                <a href="#"> Ver e Comprar </a>
-            </div>
-            <div>
-                <div> <img src="./images/icon-3.png" alt="roteiros"></div>
-                <p>Trilhas a dedo</p>
-                <a href="#"> Ver e Comprar </a>
-            </div>
-
+            <div><img src="./images/1-quemsomos.jpg" alt="Sobre nós"></div>
         </div>
     </div>
+    <div class="container-externo">
 
-    <div>
+        <div  class="flex-container" id="servicos">
+            <div>
+                <h2> Nossos Serviços </h2>
+            </div>
+            <div class="list-servicos">
+                <div class="item-servico">
+                    <div> <img src="./images/icon-2.png" alt="Hospedagem"></div>
+                    <p>Lugar pra ficar</p>
+                    <a href="#"> Ver e Comprar </a>
+                </div>
+                <div class="item-servico">
+                    <div> <img src="./images/icon-1.png" alt="Pacotes"></div>
+                    <p>Pacotes dos bons</p>
+                    <a href="#"> Ver e Comprar </a>
+                </div>
+                <div class="item-servico">
+                    <div> <img src="./images/icon-3.png" alt="roteiros"></div>
+                    <p>Trilhas a dedo</p>
+                    <a href="#"> Ver e Comprar </a>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    <div  class="flex-container">
         <div>
-            <h3>Plano 1</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviço de quarto</li>
-                <li>Guia Turístico</li>
-            </ul>
-            <a href="#"> Saiba Mais! </a>
+            <h2> Nossos Pacotes </h2>
         </div>
 
         <div>
-            <h3>Plano 2</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-                <li>Roteiro de trilhas</li>
-                <li>Serviço personalizado</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
-        </div>
+            <div>
+                <h3>Plano 1</h3>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviço de quarto</li>
+                    <li>Guia Turístico</li>
+                </ul>
+                <a href="#"> Saiba Mais! </a>
+            </div>
 
-        <div>
-            <h3>Plano 3</h3>
-            <ul>
-                <li>Suporte 24h</li>
-                <li>Serviços de quarto</li>
-                <li>Guia turístico</li>
-                <li>Roteiro de trilhas</li>
-                <li>Serviço personalizado</li>
-                <li>Área Vip</li>
-            </ul>
-            <a href="#">Saiba Mais!</a>
+            <div>
+                <h3>Plano 2</h3>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                    <li>Serviço personalizado</li>
+                </ul>
+                <a href="#">Saiba Mais!</a>
+            </div>
+
+            <div>
+                <h3>Plano 3</h3>
+                <ul>
+                    <li>Suporte 24h</li>
+                    <li>Serviços de quarto</li>
+                    <li>Guia turístico</li>
+                    <li>Roteiro de trilhas</li>
+                    <li>Serviço personalizado</li>
+                    <li>Área Vip</li>
+                </ul>
+                <a href="#">Saiba Mais!</a>
+            </div>
         </div>
     </div>
 
