@@ -40,16 +40,18 @@ header {
 
 header .list-items{
     display: flex;
-    max-width: 550px;
+    max-width: 400px;
     width: 100%;
-    justify-content: space-evenly;
-    font-size: 18px;
-    align-items: center;
+    justify-content: space-around;
+    font-size: 16px;
+    justify-content: center;
 }
+
+
+
 
 .list-items li a{
     color: #fff;
-
 }
 
 header .menu{ 
@@ -243,8 +245,69 @@ header .menu{
     margin-right: 10px;
 
 }
-footer{
+
+.container-form{
+    display: flex;
+    align-items: center;
+    margin-top: -200px;
     background-color: #8585db;
+   
+}
+
+#contato{
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+#contato h2{
+    margin-top: 50px;
+    color: #fff;
+    font-size: 32px;
+    margin-bottom: 20px;
+}
+
+.form{
+    display: flex;
+    justify-content: center;
+}
+.campo label {
+    color: #fff;
+    display: block;
+    padding: 20px;
+}
+fieldset {
+    border: 0;
+}
+fieldset .campo input {
+    width: 100vh;
+    height: 30px;
+}
+#mensagem{
+    width: 100vh;
+    height: 150px;
+}
+.botao{
+    display: flex;
+    justify-content: flex-end;
+}
+
+.btn-form{
+ 
+    background-color: #fff;
+    color: #8585db;
+    border: 0;
+    box-shadow: 0;
+    font-size: 15px;
+    padding: 20px 30px;
+    border-radius: 30px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+
+
+footer{
+    background-color: #fff;
     height: 70px;
     display: flex;
     align-items: center;
@@ -252,9 +315,15 @@ footer{
 }
 
 footer .footer { 
-    color: #fff;
+    color: #8585db;
     justify-content: space-between;
 }
+
+
+
+
+
+
 
 /*Mobile*/
 
